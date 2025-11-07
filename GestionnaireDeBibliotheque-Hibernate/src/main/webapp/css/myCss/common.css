@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* common.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+h1 {
+	margin-top: 20px;
+	margin-bottom: 160px;
+}
+h2 {
+	margin-bottom: 80px;
+}
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.9;
+}
+#buttonValider {
+	color: white;
+	margin-top: 30px;
+	margin-left: 10px;
+	background-color: #F54927;
+	self-align: flex-end;
+}
